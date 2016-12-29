@@ -39,7 +39,7 @@ void loop()
 
   if (brightness <= 0 || brightness >= 255)  //meaning of this line of code, specifically ||
   {
-    fadeAmount = -fadeAmount;
+    fadeAmount = -fadeAmount; //what does this mean in Layman's terms
   }
 
   delay(30);
