@@ -37,7 +37,7 @@ void loop()
   brightness = brightness + fadeAmount;
 
 
-  if (brightness <= 0 || brightness >= 255) 
+  if (brightness <= 0 || brightness >= 255)  //meaning of this line of code, specifically ||
   {
     fadeAmount = -fadeAmount;
   }
